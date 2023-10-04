@@ -1,0 +1,21 @@
+@mixin displayflex {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; padding: 1em
+}
+
+header nav {
+  @include displayflex;
+  background: aliceblue;
+  
+}
+ul {
+  @include displayflex;
+  li {
+    padding: 1em;
+  }
+}
+
+#hero {
+  @include displayflex;
+}

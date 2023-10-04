@@ -1,0 +1,22 @@
+$button1: #0e6cff;
+$button2: #ff8700;
+$button3: #4caf50;
+
+@mixin button-style-general {
+  padding: 0.5em;
+  color: white;
+  align-self: flex-end;
+}
+
+.uno {
+  background-color: $button1;
+  @include button-style-general;
+}
+.due {
+  background-color: $button2;
+  @include button-style-general;
+}
+.tre {
+  background-color: $button3;
+  @include button-style-general;
+}

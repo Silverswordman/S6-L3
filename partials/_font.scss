@@ -1,0 +1,19 @@
+$fontfamily: "Arial";
+
+body {
+  font-family: $fontfamily;
+}
+
+$size-font1: 3em;
+$size-font2: 1.5em;
+$size-font3: 0.5em;
+
+@mixin big-title {
+  font-size: $size-font1;
+  font-weight: bold;
+  padding: 1em;
+}
+
+h1 {
+  @include big-title;
+}
